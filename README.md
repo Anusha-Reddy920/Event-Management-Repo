@@ -34,7 +34,7 @@ Maven
 Swagger (Springdoc OpenAPI)
 
 **Project Structure**
-
+```
 src/main/java/com/example/eventmanagement
 │
 ├── controller      → REST Controllers
@@ -43,16 +43,16 @@ src/main/java/com/example/eventmanagement
 ├── model           → Entity Classes
 ├── exception       → Custom Exceptions (optional)
 └── EventmanagementApplication.java
-
+```
 
 **Application URLs**
-
+```
 | Purpose          | URL                                                                            |
 | ---------------- | ------------------------------------------------------------------------------ |
 | Application Base | [http://localhost:8080](http://localhost:8080)                                 |
 | Swagger UI       | [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) |
 | H2 Console       | [http://localhost:8080/h2-console](http://localhost:8080/h2-console)           |
-
+```
 **H2 Database Login**
 
 JDBC URL: jdbc:h2:mem:eventdb
