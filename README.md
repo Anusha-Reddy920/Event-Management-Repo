@@ -53,6 +53,7 @@ src/main/java/com/example/eventmanagement
 | Swagger UI       | [http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html) |
 | H2 Console       | [http://localhost:8080/h2-console](http://localhost:8080/h2-console)           |
 ```
+```
 **H2 Database Login**
 
 JDBC URL: jdbc:h2:mem:eventdb
@@ -96,4 +97,5 @@ Unit testing can be implemented using:
 JUnit
 Mockito
 Dependencies already included.
+```
 
